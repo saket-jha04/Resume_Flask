@@ -43,7 +43,7 @@ Deployment: Flask server (local/cloud-ready)
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/resume-analyzer.git
+git clone https://github.com/Anshji789123/flask-resume-new.git
 cd resume-analyzer
 pip install -r requirements.txt
 python app.py
