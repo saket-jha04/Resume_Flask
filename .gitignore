@@ -1,0 +1,6 @@
+# Ignore the .env file containing sensitive API keys
+.env
+
+# Ignore other possible unwanted files
+*.pyc
+__pycache__/
