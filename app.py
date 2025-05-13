@@ -17,7 +17,7 @@ if not os.path.exists(app.config['UPLOAD_FOLDER']):
     os.makedirs(app.config['UPLOAD_FOLDER'])  # Create 'uploads' folder if it doesn't exist
 
 # Configure Gemini API Key
-api_key = os.environ.get("GEMINI_API_KEY")
+api_key = os.environ.get("GEMINI_API_KEY")#new api key generated
 if not api_key:
     raise ValueError("❌ GEMINI_API_KEY not found in environment variables.")
 
