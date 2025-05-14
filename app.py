@@ -24,7 +24,7 @@ if not api_key:
 print(f"🔑 GEMINI_API_KEY: {api_key[:5]}...")  # Print part of the key for debugging (remove in production)
 
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("models/gemini-1.5-pro")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Function to sanitize the uploaded filename (replace special characters with underscores)
 def sanitize_filename(filename):
